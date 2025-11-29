@@ -4,41 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Keranjang - Toko Sepatu</title>
+    <link rel="stylesheet" href="css/keranjang.css" />
   </head>
   <body>
     <h1>Keranjang Belanja</h1>
 
-    <nav>
+    <nav class="navbar">
       <a href="beranda.html">Beranda</a> |
       <a href="products.html">Products</a> |
       <a href="keranjang.html">Keranjang</a> |
       <a href="pembayaran.html">Checkout</a>
     </nav>
 
-    <hr />
+    <div class="card-container">
+      <div class="product-card">
+        <img src="image/runnerpro.jpg" alt="Runner Pro" />
+        <h3>Runner Pro</h3>
+        <p>Harga: Rp325.000</p>
+        <p>Jumlah: 1</p>
+        <p>Total: Rp325.000</p>
+      </div>
+    </div>
 
-    <table border="1" cellpadding="10">
-      <tr>
-        <th>Gambar</th>
-        <th>Nama Produk</th>
-        <th>Harga</th>
-        <th>Jumlah</th>
-        <th>Total</th>
-      </tr>
+    <div class="total">Total Belanja: Rp325.000</div>
 
-      <!-- Contoh Produk Pertama -->
-      <tr>
-        <td><img src="image/runnerpro.jpg" alt="Runner Pro" width="100" /></td>
-        <td>Runner Pro</td>
-        <td>Rp325.000</td>
-        <td>1</td>
-        <td>Rp325.000</td>
-      </tr>
-    </table>
-
-    <h3>Total Belanja: Rp325.000</h3>
-
-    <a href="products.html"><button>Tambah Produk Lain</button></a>
-    <a href="pembayaran.html"><button>Lanjut ke Pembayaran</button></a>
+    <div class="buttons">
+      <a href="products.html"><button>Tambah Produk Lain</button></a>
+      <a href="pembayaran.html"><button>Lanjut ke Pembayaran</button></a>
+    </div>
   </body>
 </html>

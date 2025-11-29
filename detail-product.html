@@ -4,29 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail Produk - Runner Pro</title>
+    <link rel="stylesheet" href="css/detail-product.css" />
   </head>
   <body>
     <h1>Detail Produk: Runner Pro</h1>
 
-    <nav>
-      <a href="beranda.html">Beranda</a> |
-      <a href="products.html">Products</a> |
-      <a href="keranjang.html">Keranjang</a> |
+    <nav class="navbar">
+      <a href="beranda.html">Beranda</a>
+      <a href="products.html">Products</a>
+      <a href="keranjang.html">Keranjang</a>
       <a href="pembayaran.html">Checkout</a>
     </nav>
 
-    <hr />
-
-    <img src="/image/runnerpro.jpg" width="300" alt="Runner Pro" />
-
-    <h2>Runner Pro</h2>
-    <p>
-      Sepatu lari ringan dan nyaman, cocok untuk jogging harian maupun olahraga
-      profesional.
-    </p>
-    <p>Harga: <strong>Rp325.000</strong></p>
-
-    <p><a href="keranjang.html">Tambahkan ke Keranjang</a></p>
-    <p><a href="products.html">Kembali ke Daftar Produk</a></p>
+    <div class="detail-container">
+      <div class="detail-image">
+        <img src="image/runnerpro.jpg" alt="Runner Pro" />
+      </div>
+      <div class="detail-info">
+        <h2>Runner Pro</h2>
+        <p>
+          Sepatu lari ringan dan nyaman, cocok untuk jogging harian maupun
+          olahraga profesional.
+        </p>
+        <p class="price">Harga: <strong>Rp325.000</strong></p>
+        <button>Tambah ke Keranjang</button>
+        <a href="products.html" class="back-btn">Kembali ke Daftar Produk</a>
+      </div>
+    </div>
   </body>
 </html>

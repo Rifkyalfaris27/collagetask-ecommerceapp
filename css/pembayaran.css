@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: #333;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #28a745;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+
+.product-card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.total {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Form pembayaran */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+p a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #28a745;
+}
+
+p a:hover {
+  text-decoration: underline;
+}

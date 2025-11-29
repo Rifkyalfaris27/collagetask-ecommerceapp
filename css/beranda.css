@@ -1,0 +1,78 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Judul */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0 10px 0;
+}
+
+/* Paragraf */
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Navbar */
+nav {
+  margin: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #28a745;
+}
+
+/* Garis horizontal */
+hr {
+  margin: 20px 0;
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+}
+
+/* Link utama */
+p a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+p a:hover {
+  background-color: #218838;
+}
+
+/* Promo highlight */
+h2 + p {
+  font-weight: bold;
+  color: #28a745;
+}

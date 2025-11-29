@@ -1,0 +1,139 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #28a745;
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+/* Grid Produk */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card Produk */
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Gambar sepatu */
+.product-card img {
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Nama & harga */
+.product-card h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Tombol */
+.product-card button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: auto; /* dorong tombol ke bawah supaya card konsisten */
+  width: 100%;
+}
+
+.product-card button:hover {
+  background-color: #218838;
+}
+
+/* Tombol Detail Produk */
+.detail-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.detail-btn:hover {
+  background-color: #0069d9;
+}
+
+/* Link kembali */
+p a {
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto;
+  color: #28a745;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}

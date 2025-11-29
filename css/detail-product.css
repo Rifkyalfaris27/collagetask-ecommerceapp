@@ -1,0 +1,118 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #28a745;
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Container detail */
+.detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Gambar detail */
+.detail-image img {
+  width: 300px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Info detail */
+.detail-info {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.detail-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.detail-info .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Tombol */
+.detail-info button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.detail-info button:hover {
+  background-color: #218838;
+}
+
+/* Tombol kembali */
+.detail-info .back-btn {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.detail-info .back-btn:hover {
+  text-decoration: underline;
+}

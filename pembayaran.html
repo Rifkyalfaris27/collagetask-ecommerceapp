@@ -4,40 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pembayaran - Toko Sepatu</title>
+    <link rel="stylesheet" href="css/pembayaran.css" />
   </head>
   <body>
     <h1>Metode Pembayaran</h1>
 
-    <nav>
+    <nav class="navbar">
       <a href="beranda.html">Beranda</a> |
       <a href="products.html">Products</a> |
       <a href="keranjang.html">Keranjang</a> |
       <a href="pembayaran.html">Checkout</a>
     </nav>
 
-    <hr />
-
     <h2>Produk yang Dibeli</h2>
-    <table border="1" cellpadding="10">
-      <tr>
-        <th>Gambar</th>
-        <th>Nama Produk</th>
-        <th>Harga</th>
-        <th>Jumlah</th>
-        <th>Total</th>
-      </tr>
 
-      <!-- Hanya produk pertama sebagai contoh -->
-      <tr>
-        <td><img src="image/runnerpro.jpg" alt="Runner Pro" width="100" /></td>
-        <td>Runner Pro</td>
-        <td>Rp325.000</td>
-        <td>1</td>
-        <td>Rp325.000</td>
-      </tr>
-    </table>
+    <div class="card-container">
+      <div class="product-card">
+        <img src="image/runnerpro.jpg" alt="Runner Pro" />
+        <h3>Runner Pro</h3>
+        <p>Harga: Rp325.000</p>
+        <p>Jumlah: 1</p>
+        <p>Total: Rp325.000</p>
+      </div>
+    </div>
 
-    <h3>Total Pembayaran: Rp325.000</h3>
+    <div class="total">Total Pembayaran: Rp325.000</div>
 
     <form action="#" method="post">
       <label>Pilih Metode Pembayaran:</label><br />
@@ -47,11 +38,10 @@
       <input type="radio" name="metode" value="ewallet" /> E-Wallet <br /><br />
 
       <label>Nama Penerima:</label><br />
-      <input type="text" name="nama" required /><br /><br />
+      <input type="text" name="nama" required /><br />
 
       <label>Alamat Pengiriman:</label><br />
-      <textarea name="alamat" rows="3" cols="40" required></textarea
-      ><br /><br />
+      <textarea name="alamat" rows="3" required></textarea><br />
 
       <button type="submit">Konfirmasi Pembayaran</button>
     </form>
